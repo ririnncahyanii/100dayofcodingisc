@@ -6,3 +6,6 @@ public class day1{
       // komentar satu baris 
       /* kometar beberapa baris */
       /** komentar dokumentasi */
+
+   }
+ } 
