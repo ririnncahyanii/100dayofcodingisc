@@ -1,4 +1,4 @@
-public class main {
+public class day2{
   public static void main(String[] Arts) {
     System.out.println("Nama:ririn\numur:19tahun");
    // \n untuk pindah baris
