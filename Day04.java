@@ -13,3 +13,6 @@ public class day4{
   long jumlah uang = 5000000000L;
     System.out.println("jumlah uang:"+ jumlah uang);
     // digunakan untuk menyimpan bilangan bulat yang sangat besar
+
+  }
+}
