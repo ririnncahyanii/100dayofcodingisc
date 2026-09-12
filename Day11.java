@@ -3,23 +3,23 @@
    public static void main(String[]args) {
     Scanner sc = new Scanner (System.in);
 
-  System.out.print(s:"nama:");
+  System.out.print("nama:");
     String nama = sc.nextLine();
-  System.out.print(s:"umur:");
+  System.out.print("umur:");
     int umur = sc.nextInt();
-  System.out.print(s:"tinggiBadan:");
+  System.out.print("tinggiBadan:");
     double tinggi = sc.nextDouble();
-  System.out.print(s:"beratBadan:");
+  System.out.print("beratBadan:");
     float berat = sc.nextFloat();
-  System.out.print(s:"jenisKelamin:");
-    char jenisKelamin = sc.nextChar().charAt(0);
-  System.out.print(s:"statusMahasiswa:");
+  System.out.print("jenisKelamin:");
+    char jenisKelamin = sc.nextLine().charAt(0);
+  System.out.print("statusMahasiswa:");
     boolean status = sc.nextBoolean();
-  System.out.print(s:"nomorDana:");
-    long nomor dana = sc.nextLong();
-  System.out.print(s:"tahunMasuk:");
+  System.out.print("nomorDana:");
+    long nomorDana = sc.nextLong();
+  System.out.print("tahunMasuk:");
     short tahunMasuk = sc.nextShort();
- System.out.print(s:"jumlahSodara:");
+ System.out.print("jumlahSodara:");
     byte jumlahSodara = sc.nextByte();
 
     System.out.println(\n=== DATA YANG DIMASUKKAN ===");
