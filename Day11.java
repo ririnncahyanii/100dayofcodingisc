@@ -13,7 +13,7 @@
     float berat = input.nextFloat();
   System.out.print(s:"jenisKelamin:");
     char jenisKelamin = input.nextChar();
-  System.out.print(s:"status mahasiswa [true/false]:";
+  System.out.print(s:"status mahasiswa [true/false]");
     boolean status = input.nextBoolean();
   System.out.print(s:"nomor Dana [long]:");
     long nomor dana = input.nextLong();
