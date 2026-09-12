@@ -1,5 +1,6 @@
- public class day11{
-  public static void main (String[]args) {
+ import Java.util.Scanner;
+  public class day11{
+   public static void main (String[]args) {
     Scanner sc = new Scanner (System.in);
 
   System.out.print(s:"nama:");
@@ -20,6 +21,8 @@
     short tahunMasuk = input.nextShort();
  System.out.print(s:"jumlahSodara:");
     byte jumlahSodara = input.nextByte();
-
+   
+   input.clause();
+   
   }
-}
+ }
