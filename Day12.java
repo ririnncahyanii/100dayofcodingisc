@@ -1,5 +1,5 @@
 import Java. util.Scanner;
-public class biodata day12 {
+public class biodata_day12 {
   public static void main(String[]args) {
     Scanner input = new Scanner(System.in);
 
