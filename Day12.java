@@ -18,16 +18,16 @@ public class biodata day12 {
   System.out.print("Berat Badan (kg) :");
     float berat = input.nextFloat();
   System.out.print("Tinggi Badan:");
-    double tinggi = input.nextdouble();
+    double tinggi = input.nextDouble();
   System.out.print("Jenis Kelamin (L/P) :");
-    char jk = input.next().chartAt(0);
-  System.out.print("Apakah Mahasiswa Aktif? (true/false):");
+    char jk = input.next().charAt(0);
+  System.out.print("Apakah Mahasiswa Aktif? (true/false): ");
     boolean aktif = input.nextBoolean();
 
     System.out.println("\n=== HASIL BIODATA ANDA ===");
 
     System.out.println("Nama:" + nama);
-    System.out.println("Umur:" + tahun);
+    System.out.println("Umur:" + umur + "tahun");
     System.out.println("Saudara:" + saudara + "orang");
     System.out.println("Tahun Lahir:" + tahunLahir);
     System.out.println("NIM:" + nim);
