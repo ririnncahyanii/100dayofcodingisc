@@ -6,3 +6,6 @@ public class Day14 {
     int kurang = angka1 - angka2;
     System.out.println("penjumlahan =" + tambah);
     System.out.println("pengurangan =" + kurang);
+
+  }
+}
