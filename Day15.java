@@ -5,9 +5,9 @@ public class day15 {
     int jumlahKotak = input.nextInt();
     int apelPerKotak = input.nextInt();
     int jumlahTetangga = input.nextint();
-    System.out.println("jumlah kotak apel:");
-    System.out.println("jumlah apel disetiap kotak:");
-    System.out.println("jumlah tetangga:");
+    System.out.println("jumlah kotak apel:" + jumlahKotak);                 
+    System.out.println("jumlah apel disetiap kotak:" + apelPerKotak);
+    System.out.println("jumlah tetangga:" + jumlahTetangga);
 
     int totalApel = jumlahKotak * apelPerKotak;
     int apelPerTetanggga = totalApel / jumlahTetangga;
