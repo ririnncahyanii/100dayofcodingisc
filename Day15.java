@@ -9,7 +9,7 @@ public class day15 {
     System.out.println("jumlah apel disetiap kotak:");
     System.out.println("jumlah tetangga:");
 
-    int totalApel = jumlahKotak * apelPerKotal;
+    int totalApel = jumlahKotak * apelPerKotak;
     int apelPerTetanggga = totalApel / jumlahTetangga;
 
     System.out.println("\n---HASIL PERHITUNGAN ---")
