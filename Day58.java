@@ -6,7 +6,7 @@ public class Day58 {
        System.out.print("Masikkan nilai N : ");
        int N = input.nextInt();
        System.out.println("Bilangan ganjil dari N - 1 : ");
-        for(int i = N ; i >= 1 - 1;i--){
+        for(int i = N ; i >= 1;i--){
           if(i % 2 != 0){
         System.out.println(i + " ");
           }
