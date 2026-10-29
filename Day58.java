@@ -11,7 +11,7 @@ public class Day58 {
         System.out.println(i + " ");
           }
         }
-        System.out.println("Bilangan gelap dari N - 1 : ");
+        System.out.println("Bilangan genap dari N - 1 : ");
         for(int i = N;i>=1;i--){
           if(i %2 == 0){
             System.out.print(i+" ");
