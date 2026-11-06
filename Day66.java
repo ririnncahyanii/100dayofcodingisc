@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Day66 {
+public class day100 {
      public static void main(String[] args) {
       Scanner input = new Scanner (System.in);
      
@@ -15,7 +15,7 @@ public class Day66 {
         if((i + j) % 2 == 0){
           System.out.print("# ");
         }else{
-            System.out.print("o "); 
+            System.out.print("O "); 
         }
       }
         System.out.println();
@@ -26,7 +26,5 @@ public class Day66 {
      }
        }
       
-     
-    
      
     
