@@ -1,0 +1,30 @@
+
+import java.util.Scanner;
+
+public class Day75 {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        String nama = "Ririn";
+
+        System.out.print("Masukkan nama: ");
+        String cekNama = input.nextLine();
+
+        // equals()
+        System.out.println("Equals: " + nama.equals(cekNama));
+
+        // equalsIgnoreCase()
+        System.out.println("EqualsIgnoreCase: " +
+                nama.equalsIgnoreCase(cekNama));
+
+        // contains()
+        System.out.println("Contains: " +
+                nama.contains("rin"));
+
+        // isEmpty()
+        System.out.println("IsEmpty: " + cekNama.isEmpty());
+
+        
+    }
+}
